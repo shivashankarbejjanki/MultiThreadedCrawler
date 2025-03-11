@@ -11,10 +11,10 @@ class WebCrawler implements Runnable {
 
     @Override
     public void run() {
-        if (visitedUrls.add(url)) { // Prevent duplicate crawling
+        if (visitedUrls.add(url)) {    //Prevent duplicate crawling
             System.out.println(Thread.currentThread().getName() + " crawling: " + url);
 
-            // Simulate downloading a page (replace with real HTTP request)
+              //Simulate downloading a page (replace with real HTTP request)
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
@@ -33,7 +33,7 @@ public class MultiThreadedCrawler {
                 "https://example.com",
                 "https://google.com",
                 "https://github.com",
-                "https://example.com" // Duplicate URL to test thread safety
+                "https://example.com"      //Duplicate URL to test thread safety
         );
 
         for (String url : urls) {
