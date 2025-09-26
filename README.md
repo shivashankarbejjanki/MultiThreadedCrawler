@@ -44,6 +44,6 @@ Argument	          Description	                      Example
 [Thread-3] Crawling: https://example.com/contac
 
 
-⚡MultiThreadCrawler is a demonstration of efficient web crawling using multithreading.
+>>>MultiThreadCrawler is a demonstration of efficient web crawling using multithreading.
    
 
